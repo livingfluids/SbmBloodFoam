@@ -1,0 +1,69 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet           
+    {
+        type            codedFixedValue;
+        value           uniform (0.01 0 0);  // => Rep ~ (10^-4) ,  Re ~ (0.069)
+
+        name    parabolicVelocity;
+        code
+        #{
+                const vectorField&  Cf = patch().Cf();
+                vectorField& field = *this;
+
+                const scalar Umax = 0.01; //Maximum velocity at centerline
+                const scalar H = 0.00005; //Channel height
+
+                forAll(Cf, faceI)
+                {
+                    const scalar y = Cf[faceI][1];
+		   //Parabolic velocity profile imposed at the inlet
+                    field[faceI] = vector( (Umax*(H-y)*(y))/(pow((H/2),2)), 0, 0);
+                }
+        #};
+
+    }
+    outlet          
+    {
+        type            zeroGradient;
+    }
+
+    lowerWall       
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+
+    upperWall       
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+
+    frontAndBack    
+    {
+        type            empty;
+    }
+}
+
+// ************************************************************************* //

@@ -1,0 +1,26 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+nu0              nu0 [ 0 2 -1 0 0 0 0 ] 1.30e-06; //viscosity of suspended Liquid
+cm               cm [ 0 0 0 0 0 0 0 ] 0.5; //Maximum packing concentration
+alpha            alpha [ 0 0 0 0 0 0 0 ] 4; //alpha value for hindered settling function 
+a		a [ 0 1 0 0 0 0 0 ] 2.82e-6; //a = Raadius of solid particles
+epsilon		epsilon [ 0 -1 0 0 0 0 0 ] 4512.0; //epsilon=a/(H/2)² in case of channel flows, where here H=gap width
+h0              h0 [ 0 1 0 0 0 0 0 ] 1.0e-12; //h0 = normal distance from the wall
+H               H [ 0 1 0 0 0 0 0 ] 5e-5; //H=height of the channel
+fv              fv [ 0 -1 0 0 0 0 0 ] 1.2; //fv=reduced volume function, we use dimensions of length to have consistent dimensions
+beta            beta [ 0 0 0 0 0 0 0 ] 1.2; //Beta exponent for the lift force
+// ************************************************************************* //

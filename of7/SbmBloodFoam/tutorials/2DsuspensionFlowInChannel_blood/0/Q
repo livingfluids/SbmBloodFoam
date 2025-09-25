@@ -1,0 +1,63 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volTensorField;
+    object      Q; 
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Note:
+// Q tensor diagonals components values must be oriented in the 1-velocity  2-velocity-gradient and 3-vorticity directions
+//see:
+/*
+see: 
+    T. DBOUK, L. LOBRY, E. LEMAIRE, and F. MOUKALLED, ‘Shear-induced Particles Migration.
+    ‘Predictions from Experimental Determination of The Particle Stress Tensor’, 
+    Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
+*/
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform (1 0 0 0 0.8 0 0 0 0.5);
+
+boundaryField
+{
+    inlet           
+    {
+        type            fixedValue;
+	value		uniform (1 0 0 0 0.8 0 0 0 0.5);	  
+    }
+
+    outlet          
+    {
+        type            fixedValue;
+	value		uniform (1 0 0 0 0.8 0 0 0 0.5);
+    }
+
+    lowerWall       
+    {
+        type            fixedValue;
+	value		uniform (1 0 0 0 0.8 0 0 0 0.5);
+    }
+
+    upperWall       
+    {
+        type            fixedValue;
+	value		uniform (1 0 0 0 0.8 0 0 0 0.5);
+    }
+
+    frontAndBack    
+    {
+        type            empty;
+    }
+}
+
+// ************************************************************************* //
