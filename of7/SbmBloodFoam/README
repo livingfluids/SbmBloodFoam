@@ -3,10 +3,12 @@ Application
 
 Description
     The SbmBloodFoam application solves the modified suspension balance model (MSBM) equations for the flow of red blood cells
-(RBCs) and other deformable particle suspensions in confined geometries. A lift force term "LiftF" and other hemorheology features
+(RBCs) and other deformable particle suspensions in confined geometries (channels). A lift force term "LiftF" and other hemorheology features
 are incorporated into the conventional suspension balance model (SBM) on top of the SbmFoam solver (originally developed by Dbouk et. al.)
 to create the SbmBloodFoam solver, which is able to predict both the transient and steady-state hematocrit and velocity profiles and 
 the development of the cell-free layer characteristic of blood flows.
+
+To simulate tubular flows, use the SbmBloodTubeFoam application instead. 
 
 References:
     1. Castillo-Sanchez, H. A., Tuna, R., Ortiz, W., Martin, R., Rao, R., Liu, Z. L.,
@@ -23,12 +25,12 @@ Dr. Hugo A. Castillo-Sanchez
 hc25o@fsu.com
 hugocastillocom.wordpress.com
 
-Compile first the application with wclean, followed by wmake
+Within the SbmBloodFoam folder, compile the files using the wmake command. 
 
 
 tutorial:
 The tutorial Folder includes an example case for a 2D blood flow in a channel 
-starting at a bulk concentration of 20% and a lift force exponent value of
+starting at a bulk hematocrit of 20% and a lift force exponent value of
 beta=1.2. This simulation uses realistic blood flow parameter values, which 
 can be found in the file named "transportProperties" within the folder called 
 "constant". In that file, don't forget to specify the channel height of your mesh.
