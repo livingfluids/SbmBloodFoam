@@ -1,5 +1,4 @@
-Application
-    SbmBloodFoam
+#The SbmBloodFoam solver
 
 Description
     The SbmBloodFoam application solves the modified suspension balance model (MSBM) equations for the flow of red blood cells
@@ -22,7 +21,8 @@ Compiling the files
 Within the SbmBloodFoam folder, compile the files using the wmake command. 
 
 tutorial:
-The tutorial Folder includes an example case for a 2D blood flow in a channel 
+The tutorial folder includes two cases: 
+1 an example case for a 2D blood flow in a channel 
 starting at a bulk hematocrit of 20% and a lift force exponent value of
 beta=1.2. This simulation uses realistic blood flow parameter values, which 
 can be found in the file named "transportProperties" within the folder called 
