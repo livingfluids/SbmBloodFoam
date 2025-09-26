@@ -18,15 +18,8 @@ References:
     Migration. Predictions from Experimental Determination of The Particle Stress Tensor’, 
     Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
 
-
-Application Written by:
-
-Dr. Hugo A. Castillo-Sanchez
-hc25o@fsu.com
-hugocastillocom.wordpress.com
-
+Compiling the files
 Within the SbmBloodFoam folder, compile the files using the wmake command. 
-
 
 tutorial:
 The tutorial Folder includes an example case for a 2D blood flow in a channel 
@@ -41,6 +34,12 @@ velocity profile.
 
 Post-procesing:
 Don't forget to zoom in to observe well the geometry.
+
+Application Written by:
+
+Dr. Hugo A. Castillo-Sanchez
+hc25o@fsu.com
+hugocastillocom.wordpress.com
 
 
 
