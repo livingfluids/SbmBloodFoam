@@ -14,8 +14,9 @@ References:
     Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
 
 The folder "of7" contains the files needed to run the **SbmBloodFoam** application in *OpenFOAM® version 7.0*. 
-Additionaly, the folder named **SbmBloodTubeFoam** is an extension of the **SbmBloodFoam** application 
+Additionaly, the folder named **SbmBloodTubeFoam** (an extension of the **SbmBloodFoam** application) was 
 specifically created to simulate the modified suspension balance model in tubular geometries.
+
 The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.php/Contrib/SbmFoam
 
 For more information, contact
