@@ -34,8 +34,8 @@ can be found in the file named "transportProperties" within the folder called
 "constant". In that file, don't forget to specify the channel height of your mesh.
 
 A parabolic inlet velocity profile imposed in this case in 0/U Folder via 
-the "codedFixedValue" utility, but you can opt to impose imposes a constant 
-ilet velocity profile. 
+the "codedFixedValue" utility, but you can opt to impose a constant inlet 
+velocity profile. 
 
 Post-procesing:
 Don't forget to zoom in to observe well the geometry.
