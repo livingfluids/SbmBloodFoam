@@ -22,20 +22,22 @@ Within the SbmBloodFoam folder, compile the files using the wmake command.
 
 tutorial:
 The tutorial folder includes two cases: 
-1 an example case for a 2D blood flow in a channel 
-starting at a bulk hematocrit of 20% and a lift force exponent value of
-beta=1.2. This simulation uses realistic blood flow parameter values, which 
-can be found in the file named "transportProperties" within the folder called 
-"constant". In that file, don't forget to specify the channel height of your mesh.
+1. An example case for a 2D blood flow in a channel starting at a bulk hematocrit 
+of 20% (specified in the 0/c folder) and a lift force exponent value of beta=1.2. 
+A parabolic inlet velocity profile imposed in this case in 0/U folder via the 
+"codedFixedValue" utility, but you can opt to impose a constant inlet velocity profile.
+2. The simple shear flow of blood between two parallel plates, where a constant velocity
+field is imposed at the top wall, while a zero-slip condition is imposed at the bottom
+plate.
 
-A parabolic inlet velocity profile imposed in this case in 0/U Folder via 
-the "codedFixedValue" utility, but you can opt to impose a constant inlet 
-velocity profile. 
+Both cases use realistic  blood flow parameter values, which  can be found in the file 
+named "transportProperties"  within the folder called "constant". In that file, don't forget 
+to specify the channel height of your mesh.
 
 Post-procesing:
 Don't forget to zoom in to observe well the geometry.
 
-Application Written by:
+Applications written by:
 
 Dr. Hugo A. Castillo-Sanchez
 hc25o@fsu.com
