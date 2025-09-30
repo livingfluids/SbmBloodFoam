@@ -31,7 +31,7 @@ field is imposed at the top wall, while a zero-slip condition is imposed at the 
 plate.
 
 Both cases use realistic  blood flow parameter values, which  can be found in the file 
-named "transportProperties"  within the folder called "constant". In that file, don't forget 
+named "transportProperties" within the folder "constant". In that file, don't forget 
 to specify the channel height of your mesh.
 
 Post-procesing:
