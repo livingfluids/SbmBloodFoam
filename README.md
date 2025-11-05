@@ -32,8 +32,21 @@ After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** 
 ```bash
 wmake
 ```
-which will compile all the files needed to run the solvers.
+which will compile all the files needed to run the solvers. This process is also valid if you want to compile the **SbmBloodTubeFoam** solver
 
+## Running one tutorial case
+
+Go to the tutorial folder and open the folder of the flow case of your choice (_2DSimpleShearFlow_blood_ or _2DsuspensionFlowInChannel_blood_). 
+Open a terminal and type the following command:
+```bash
+blockMesh
+```
+which will create the computational mesh with the dimensions specified in the _blockMeshDict_ file (found in the _system_ folder). To run the case, 
+simply type the name of the solver:
+```bash
+SbmBloodFoam
+```
+The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder.
 
 For more information, contact
 
