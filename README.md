@@ -21,14 +21,14 @@ The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.
 
 ## Pre-requisites
 
-- OpenFOAM® v7.0
-- OpenFOAM® v9.0
+- OpenFOAM® v7.0 for the solvers created in this version (folder of7).
+- OpenFOAM® v9.0 for the solvers created in this version (folder of9).
 
-The OpenFOAM® environment must be sourced.
+The OpenFOAM® environment must be sourced before compiling the solver files.
 
 ## Compiling the solver
 
-After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in the terminal the following command:
+After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in a terminal the following command:
 ```bash
 wmake
 ```
