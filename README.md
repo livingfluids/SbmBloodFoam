@@ -49,6 +49,11 @@ SbmBloodFoam
 The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder. More information regarding 
 the tutorial cases can be found in their individual README.md files.
 
+## Screenshots
+
+Here are some results that were generated using our solvers:
+![MSBMProf](https://github.com/livingfluids/SbmBloodFoam/blob/eca236d2893c06c8a21d5573daad1687de5d66fa/MSBM.jpg) 
+
 For more information, contact
 
 Dr. Hugo A. Castillo-Sanchez \
