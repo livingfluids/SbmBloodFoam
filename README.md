@@ -6,9 +6,9 @@ to create the **SbmBloodFoam** solver, which is able to predict both the transie
 development of the cell-free layer characteristic of blood flows.
 
 References:
-1. Castillo-Sanchez, H. A., Tuna, R., Ortiz, W., Martin, R., Rao, R., Liu, Z. L.,
+1. Castillo-Sanchez, H. A., Ortiz, W., Martin, R., Tuna, R., Rao, R., Liu, Z. L.,
     ‘A Modified Suspension-Balance Model for Blood Flows Capturing the Cell Free Layer’,
-    Submitted to PRL, September 2025.
+    Submitted to PRL, November 2025.
 2. Dbouk, T., Lobry, L., Lemaire, E. and Moukalled, F., ‘Shear-induced Particles 
     Migration. Predictions from Experimental Determination of The Particle Stress Tensor’, 
     Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
