@@ -19,6 +19,22 @@ specifically created to simulate the modified suspension balance model in tubula
 
 The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.php/Contrib/SbmFoam
 
+## Pre-requisites
+
+- OpenFOAM® v7.0
+- OpenFOAM® v9.0
+
+The OpenFOAM® environment must be sourced.
+
+## Compiling the solver
+
+After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in the terminal the following command:
+```wmake
+pip install torch torchvision matplotlib numpy pandas pathlib
+```
+which will compile all the files needed to run the solvers.
+
+
 For more information, contact
 
 Dr. Hugo A. Castillo-Sanchez \
