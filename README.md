@@ -29,8 +29,8 @@ The OpenFOAM® environment must be sourced.
 ## Compiling the solver
 
 After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in the terminal the following command:
-```wmake
-pip install torch torchvision matplotlib numpy pandas pathlib
+```bash
+wmake
 ```
 which will compile all the files needed to run the solvers.
 
