@@ -1,0 +1,40 @@
+Application
+    SbmFoam
+
+Description
+    Transient solver for incompressible, suspensions flow of spherical particles immersed in a Newtonian-Fluid
+    (note: particles considered as a continuum medium but of concentration "c" ).
+see: 
+    T. DBOUK, L. LOBRY, E. LEMAIRE, and F. MOUKALLED, ‘Shear-induced Particles Migration.
+    ‘Predictions from Experimental Determination of The Particle Stress Tensor’, 
+    Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
+
+
+Application Written by:
+
+Talib DBOUK
+email@talibdbouk.com
+www.talibdbouk.com
+
+compile first the application with wmake
+
+
+tutorial:
+The tutorial Folder includes an example case for a 2D suspension flow in a channel 
+starting at a bulk concentration of 30%
+(A parabolic inlet velocity profile imposed in this case in 0/U Flder via "groovyBC" library)
+(however one can imposes a constant inlet velocity profile)
+
+Post-procesing:
+Don't forget to zoom in to observe well the geometry.
+
+For Any Information:
+Talib DBOUK
+email@talibdbouk.com
+www.talibdbouk.com
+
+
+
+
+
+
