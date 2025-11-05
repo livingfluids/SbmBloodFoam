@@ -46,7 +46,8 @@ simply type the name of the solver:
 ```bash
 SbmBloodFoam
 ```
-The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder.
+The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder. More information regarding 
+the tutorial cases can be found in their individual README.md files.
 
 For more information, contact
 
