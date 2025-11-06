@@ -32,7 +32,8 @@ After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** 
 ```bash
 wmake
 ```
-which will compile all the files needed to run the solvers. This process is also valid if you want to compile the **SbmBloodTubeFoam** solver
+which will compile all the files needed to run the solvers. This process is also valid if you want to compile the **SbmBloodTubeFoam** solver: 
+go to the _SbmBloodTubeFoam_ folder and type _wmake_. 
 
 ## Running one tutorial case
 
