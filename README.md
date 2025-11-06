@@ -49,6 +49,11 @@ SbmBloodFoam
 The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder. More information regarding 
 the tutorial cases can be found in their individual README.md files.
 
+If you are running the tubular flow case, run the following command instead:
+```bash
+SbmBloodTubeFoam
+```
+
 ## Monitoring the residuals
 
 The residuals of the simulations can be monitored on real time by typing the following command:
