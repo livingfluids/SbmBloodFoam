@@ -49,6 +49,10 @@ SbmBloodFoam
 The time-step and data input/output control is specified in the _controlDict_, which is also found in the _system_ folder. More information regarding 
 the tutorial cases can be found in their individual README.md files.
 
+## Monitoring the residuals
+
+## Postprocessing results using sampleDict
+
 ## Screenshots
 
 Here are some results that were generated using our solvers:
