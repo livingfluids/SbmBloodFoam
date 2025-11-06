@@ -45,8 +45,6 @@ timePrecision   6;
 
 runTimeModifiable yes;
 
-//libs ( "libOpenFOAM.so" "libgroovyBC.so" ) ;
-
 // ************************************************************************* //
 functions
     {
