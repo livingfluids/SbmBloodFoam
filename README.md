@@ -51,7 +51,23 @@ the tutorial cases can be found in their individual README.md files.
 
 ## Monitoring the residuals
 
+The residuals of the simulations can be monitored on real time by typing the following command:
+```bash
+foamMonitor -l ./postProcessing/residuals/0/residuals.dat
+```
+OpenFOAM will show in a plot the residuals of the flow variables (in log scale) vs the simulation time. The flow variables that will be shown by default 
+are the components of the velocity field, the pressure and the volume fraction. However, you can also include other variables (such as stresses, shear rate,
+etc) in the _residuals.dat_ file that can be found in the _system_ folder.
+
 ## Postprocessing results using sampleDict
+
+The flow profiles (i.e. volume fraction, velocity field and shear rate) across the geometry can be obtained at given locations in the geometry. This information
+is specified in the _sampleDict_ file (found in the _system_ folder). To get these profiles at the latest time of the simulation, type the following command:
+```bash
+postProcess -func sampleDict -latestTime
+```
+This will create an output folder that will be located in the _postProcessing/sampleDict/_ directory. If the latest time of the simulation is 10, the output folder
+will be named _10_. Within this folder, files with .xy format will contain the geometry coordinates in the first column, and the flow profiles in the subsequent columns.
 
 ## Screenshots
 
