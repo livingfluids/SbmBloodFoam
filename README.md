@@ -64,6 +64,11 @@ OpenFOAM will show in a plot the residuals of the flow variables (in log scale) 
 are the components of the velocity field, the pressure and the volume fraction. However, you can also include other variables (such as stresses, shear rate,
 etc) in the _residuals.dat_ file that can be found in the _system_ folder.
 
+The command above works if the simulation started at time _0_. But if the simulation is being restarted at a given time T, run the following command:
+```bash
+foamMonitor -l ./postProcessing/residuals/T/residuals.dat
+```
+
 ## Postprocessing results using sampleDict
 
 The flow profiles (i.e. volume fraction, velocity field and shear rate) across the geometry can be obtained at given locations in the geometry. This information
