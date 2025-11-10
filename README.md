@@ -54,6 +54,27 @@ If you are running the tubular flow case, run the following command instead:
 SbmBloodTubeFoam
 ```
 
+## Running a case in parallel
+
+After creating the mesh using the _blockMesh_ command (described in the previous section), type the following command:
+```bash
+decomposePar
+```
+which will decompose the mesh and fields of a case for parallel execution. The geometry and fields are broken up according to a set of parameters that are 
+in the file named _decomposeParDict_ that is located in the _system_ directory of the case of interest. To run the simulation in parallel, type this command:
+```bash
+mpirun -np N SbmBloodFoam -parallel
+```
+where _N_ is the number of processors, which must coincide with the number of subdomains specified in the _decomposeParDict_ directory. If the **SbmBloodTubeFoam**
+is being used, use the command below instead:
+```bash
+mpirun -np N SbmBloodTubeFoam -parallel
+```
+To reconstruct the mesh and the fields of a parallel case at the latest time of the simulation, type the following command:
+```bash
+reconstructPar -latestTime
+```
+
 ## Monitoring the residuals
 
 The residuals of the simulations can be monitored on real time by typing the following command:
