@@ -13,7 +13,7 @@ References:
     Migration. Predictions from Experimental Determination of The Particle Stress Tensor’, 
     Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
 
-The folder "of7" contains the files needed to run the **SbmBloodFoam** application in *OpenFOAM® version 7.0*. 
+The folder "of9" contains the files needed to run the **SbmBloodFoam** application in *OpenFOAM® version 9.0*. 
 Additionaly, the folder named **SbmBloodTubeFoam** (an extension of the **SbmBloodFoam** application) was 
 specifically created to simulate the modified suspension balance model in tubular geometries.
 
@@ -21,7 +21,6 @@ The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.
 
 ## Pre-requisites
 
-- OpenFOAM® v7.0 for the solvers created in this version (folder of7).
 - OpenFOAM® v9.0 for the solvers created in this version (folder of9).
 
 The OpenFOAM® environment must be sourced before compiling the solver files.
