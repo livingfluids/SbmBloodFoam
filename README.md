@@ -66,7 +66,7 @@ in the file named _decomposeParDict_ that is located in the _system_ directory o
 mpirun -np N SbmBloodFoam -parallel
 ```
 where _N_ is the number of processors, which must coincide with the number of subdomains specified in the _decomposeParDict_ directory. If the **SbmBloodTubeFoam**
-is being used, use the command below instead:
+solver is being used, use the command below instead:
 ```bash
 mpirun -np N SbmBloodTubeFoam -parallel
 ```
