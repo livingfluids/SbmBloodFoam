@@ -7,11 +7,11 @@ development of the cell-free layer characteristic of blood flows.
 
 References:
 1. Castillo-Sanchez, H. A., Ortiz, W., Martin, R., Tuna, R., Rao, R., Liu, Z. L.,
-    ‘A Modified Suspension-Balance Model for Blood Flows Capturing the Cell Free Layer’,
+    ‘_A Modified Suspension-Balance Model for Blood Flows Capturing the Cell Free Layer_’,
     Submitted to PRL, November 2025.
-2. Dbouk, T., Lobry, L., Lemaire, E. and Moukalled, F., ‘Shear-induced Particles 
-    Migration. Predictions from Experimental Determination of The Particle Stress Tensor’, 
-    Journal of Non-Newtonian fluid Mechanics, 198, pp. 78-95, August 2013.
+2. Dbouk, T., Lobry, L., Lemaire, E. and Moukalled, F., ‘_Shear-induced Particles 
+    Migration. Predictions from Experimental Determination of The Particle Stress Tensor_’, 
+    Journal of Non-Newtonian Fluid Mechanics, 198, pp. 78-95, August 2013.
 
 The folder "of9" contains the files needed to run the **SbmBloodFoam** application in *OpenFOAM® version 9.0*. 
 Additionaly, the folder named **SbmBloodTubeFoam** (an extension of the **SbmBloodFoam** application) was 
