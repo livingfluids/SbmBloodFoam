@@ -61,7 +61,10 @@ After creating the mesh using the _blockMesh_ command (described in the previous
 decomposePar
 ```
 which will decompose the mesh and fields of a case for parallel execution. The geometry and fields are broken up according to a set of parameters that are 
-in the file named _decomposeParDict_ that is located in the _system_ directory of the case of interest. To run the simulation in parallel, type this command:
+in the file named _decomposeParDict_ that is located in the _system_ directory of the case of interest. For a more detailed information about the _decomposeParDict_
+directory, see https://doc.cfd.direct/openfoam/user-guide-v13/running-applications-parallel.
+
+To run the simulation in parallel, type this command:
 ```bash
 mpirun -np N SbmBloodFoam -parallel
 ```
