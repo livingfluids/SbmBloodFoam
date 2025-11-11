@@ -23,10 +23,10 @@ The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.
 
 - OpenFOAM® v9.0 for the solvers created in this version (folder of9).
 
-OpenFOAM® v9.0 can be downloaded from the OpenFOAM® GitHub repository (https://github.com/OpenFOAM/OpenFOAM-9) as well as the third-party
-software needed to compile it (https://github.com/OpenFOAM/ThirdParty-9).
+OpenFOAM® v9.0 can be downloaded from the OpenFOAM® GitHub repository (https://github.com/OpenFOAM/OpenFOAM-9) as well as the third-party software 
+needed to compile it (https://github.com/OpenFOAM/ThirdParty-9).
 
-OpenFOAM® v9.0 can be installed and compiled from source code following the instructions provided here: https://openfoam.org/download/source/
+OpenFOAM® v9.0 can be installed on Ubuntu and compiled from source code following the instructions provided here: https://openfoam.org/download/source/.
 
 The OpenFOAM® environment must be sourced before compiling the solver files.
 
