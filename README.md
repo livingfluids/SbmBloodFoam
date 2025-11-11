@@ -103,6 +103,8 @@ postProcess -func sampleDict -latestTime
 This will create an output folder that will be located in the _postProcessing/sampleDict/_ directory. If the latest time of the simulation is 10, the output folder
 will be named _10_. Within this folder, files with .xy format will contain the geometry coordinates in the first column, and the flow profiles in the subsequent columns.
 
+In the tutorial cases, the profiles will be obtained close to the outlet, from the bottom to the top wall (for the channel geometry) and from the centerline to the wall (for the tubular geometry). 
+
 ## Screenshots
 
 Here are some results that were generated using our solvers:
