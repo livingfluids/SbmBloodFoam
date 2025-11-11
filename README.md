@@ -28,7 +28,7 @@ needed to compile it (https://github.com/OpenFOAM/ThirdParty-9).
 
 OpenFOAM® v9.0 can be installed on Ubuntu and compiled from source code following the instructions provided here: https://openfoam.org/download/source/.
 
-The OpenFOAM® environment must be sourced before compiling the solver files.
+The OpenFOAM® environment must be sourced before compiling the **SbmBloodFoam** solver files.
 
 ## Compiling the solver
 
