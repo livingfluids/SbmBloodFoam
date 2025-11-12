@@ -32,7 +32,7 @@ The OpenFOAM® environment must be sourced before compiling the **SbmBloodFoam**
 
 ## Compiling the solver
 
-After sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in a terminal the following command:
+Download the folder _of9_, and after sourcing your OpenFOAM® environment, go directly to the **SbmBloodFoam** folder, and type in a terminal the following command:
 ```bash
 wmake
 ```
