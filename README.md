@@ -85,7 +85,7 @@ reconstructPar -latestTime
 
 ## Monitoring the residuals
 
-The residuals of the simulations can be monitored on real time by typing the following command:
+The residuals of the simulations can be monitored in real time by typing the following command:
 ```bash
 foamMonitor -l ./postProcessing/residuals/0/residuals.dat
 ```
