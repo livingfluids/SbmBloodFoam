@@ -97,7 +97,7 @@ The command above works if the simulation started at time 0. But if the simulati
 ```bash
 foamMonitor -l ./postProcessing/residuals/T/residuals.dat
 ```
-![residuals1](https://github.com/livingfluids/SbmBloodFoam/residuals1.png) 
+![residuals1](https://github.com/livingfluids/SbmBloodFoam/blob/a15279f566ae9a66b6167bac99623e31febfa88e/residuals_1.png) 
 
 ## Postprocessing results using sampleDict
 
