@@ -116,6 +116,10 @@ In the tutorial cases, the profiles will be obtained close to the outlet, from t
 Here are some results that were generated using our solvers:
 ![MSBMProf](https://github.com/livingfluids/SbmBloodFoam/blob/eca236d2893c06c8a21d5573daad1687de5d66fa/MSBM.jpg) 
 
+A figure of the residuals obtained from the SbmBloodFoam simulations should look like this:
+
+![residuals2](https://github.com/livingfluids/SbmBloodFoam/blob/38f3394c451b46720578d777427bb82f0da5edae/residuals_2.png)
+
 For more information, contact
 
 Dr. Hugo A. Castillo-Sanchez \
