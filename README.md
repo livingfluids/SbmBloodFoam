@@ -1,5 +1,5 @@
 # SbmBloodFoam
-The **SbmBloodFoam** is an *OpenFOAM*® application that solves the *modified suspension balance model* (MSBM) equations for the flow of red blood 
+The **SbmBloodFoam** solver is an *OpenFOAM*® application that solves the *modified suspension balance model* (MSBM) equations for the flow of red blood 
 cells (RBCs) and other deformable particle suspensions in confined geometries. A lift force term "LiftF" and other hemorheology features
 are incorporated into the conventional suspension balance model (SBM) on top of the *SbmFoam* solver (originally developed by Dbouk et. al.)
 to create the **SbmBloodFoam** solver, which is able to predict both the transient and steady-state hematocrit and velocity profiles and the 
