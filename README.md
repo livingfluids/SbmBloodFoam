@@ -8,7 +8,7 @@ development of the cell-free layer characteristic of blood flows.
 References:
 1. Castillo-Sanchez, H. A., Ortiz, W., Martin, R., Tuna, R., Rao, R., Liu, Z. L.,
     ‘_A Modified Suspension-Balance Model for Blood Flows Capturing the Cell Free Layer_’,
-    Physical Review Fluids, 11(4), 043102., November 2025.
+    Physical Review Fluids, 11(4), 043102.
     Link to our paper: https://journals.aps.org/prfluids/abstract/10.1103/nwsz-5d6f.
 3. Dbouk, T., Lobry, L., Lemaire, E. and Moukalled, F., ‘_Shear-induced Particles 
     Migration. Predictions from Experimental Determination of The Particle Stress Tensor_’, 
