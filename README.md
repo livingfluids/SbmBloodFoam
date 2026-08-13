@@ -20,6 +20,10 @@ specifically created to simulate the modified suspension balance model in tubula
 
 The original solver *SbmFoam* can be found here: https://openfoamwiki.net/index.php/Contrib/SbmFoam
 
+A brief introduction to the MSBM model and the description of some of our results obtained using our 
+**SbmBloodFoam** solver  can be found in the following  presentation given at the "Future of Rheology" seminar 
+organized by the Society of Rheology: https://www.societyofrheology.org/future-of-rheology/future-of-rheology-april-2026
+
 ## Pre-requisites
 
 - OpenFOAM® v9.0 for the solvers created in this version (folder of9).
